@@ -8,7 +8,9 @@ function NavBar() {
 
     return (
         <nav>
+            <div id={navStyle.logoCont}>
             <img id={navStyle.logo} src="/src/assets/image/disney_logo.png" />
+            </div>
             <ul id={navStyle.navLinks}>
                 {
                     linkArray.map((value, index) => {
