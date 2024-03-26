@@ -14,3 +14,11 @@
   justify-content: center;
   flex-direction: column;
 }
+
+section{
+  width: 100%;
+  background-color: #F1F2F3;
+  /* padding: 0px 140px; */
+  box-sizing: border-box;
+  display: flex;
+}

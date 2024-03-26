@@ -10,6 +10,7 @@ function Carousel() {
         { image: "https://lumiere-a.akamaihd.net/v1/images/20240314_hero_olaf_presents_2048_215_878_a32dadd5.jpeg?region=0,0,2048,878", title: `A story told by Olaf`, description: `10th anniversary of “Frozen” released in Japan! Olaf recreates that popular movie almost by himself⁉ The original work is now available exclusively on Disney Plus!`, color: "white" },
         { image: "https://lumiere-a.akamaihd.net/v1/images/20240314_hero_anayuki_2048_215_878_657bd06d.jpeg?region=0,0,2048,878", title: `“Frozen” 10th anniversary`, description: `Check out the latest information, character information, related videos, and more about the Disney animated movie that caused the <Frozen phenomenon> around the world!`, color: "black" }
     ]
+    
 
     function previousImage() {
         if (carouselIndex > 0) {
