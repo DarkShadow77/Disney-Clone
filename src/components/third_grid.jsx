@@ -3,7 +3,7 @@ import ThirdCard from "./cards/third_card";
 import Title from "./title";
 
 function ThirdGrid() {
-    const gridOne = [
+    const gridThree = [
         {
             image: "https://lumiere-a.akamaihd.net/v1/images/d_65291_12498_12442_12483_12463_12450_12483_12501_12442_a4896218.jpeg?region=0,0,800,800&width=768",
             title: `This month's recommended works`,
@@ -33,7 +33,7 @@ function ThirdGrid() {
             <section id={gridStyle.section}>
 
                 {
-                    gridOne.map((items) => {
+                    gridThree.map((items) => {
                         return (<ThirdCard image={items.image} title={items.title} desc={items.description} />)
                     })
                 }

@@ -2,7 +2,7 @@ import gridStyle from "../assets/css/fourth_grid.module.css"
 import FourthCard from "./cards/fourth_card";
 
 function FourthGrid() {
-    const gridOne = [
+    const gridFourth = [
         { 
             image: "https://lumiere-a.akamaihd.net/v1/images/home_2024_c_d_spring_collection_1600-1600_b9cd2804.jpeg?region=0,0,1600,1600&width=768", 
             title: `Chip & Dale birthday commemorative goods`,
@@ -29,7 +29,7 @@ function FourthGrid() {
 
             <section id={gridStyle.section}>
                 {
-                    gridOne.map((items)=>{
+                    gridFourth.map((items)=>{
                         return (<FourthCard image={items.image} title={items.title} desc={items.description}/>)
                     })
                 }

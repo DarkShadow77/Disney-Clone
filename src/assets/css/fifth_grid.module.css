@@ -1,14 +1,12 @@
 #section {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    column-gap: 20px;
+    column-gap: 24px;
     justify-content: center;
-    background-color: #010E3E;
+    padding-bottom: 50px;
 }
 
 #card {
-    width: 333px;
-    height: 518px;
+    width: 260px;
+    height: 360px;
     background-color: white;
     border-radius: 5px;
     display: flex;
@@ -17,19 +15,18 @@
 }
 
 #card img {
-    width: 333px;
-    height: 333px;
+    width: 260px;
+    height: 260px;
     object-fit: cover;
+    border-radius: 5px;
 }
 
 #cardContent {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    padding: 30px;
+    margin-top: 12px;
     box-sizing: border-box;
-    background-color: #1A1C28;
-    color: white;
 }
 
 #cardContent p {
@@ -37,12 +34,17 @@
 }
 
 #cardContent #title {
-    font-size: 1.1em;
+    font-size: 0.96em;
     font-weight: 500;
 }
 
 #cardContent #description {
     margin-top: 0.72em;
-    font-size: 0.875em;
-    line-height: 1.4;
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
 }
