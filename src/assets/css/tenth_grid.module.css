@@ -1,0 +1,38 @@
+#section {
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+
+#card h3 {
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0px;
+    margin-bottom: 12px;
+}
+
+#card #cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+#card p {
+    width: 240px;
+    height: 19px;
+    font-size: .7em;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0px;
+    margin-bottom: 12px;
+}

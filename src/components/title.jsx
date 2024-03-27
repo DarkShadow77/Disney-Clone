@@ -1,6 +1,6 @@
 function Title(props) {
 
-    let {style, title} = props
+    let {style, title, para} = props
 
     const section = {
         paddingTop: "64px",
@@ -12,8 +12,10 @@ function Title(props) {
 
     const p = {
         margin: "0px",
-        fontSize: "1.1em",
-        fontWeight: "bold"
+        fontSize: "1.4em",
+        fontWeight: "bold",
+        textAlign: "center",
+        ...para
     }
 
 

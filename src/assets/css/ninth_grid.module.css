@@ -1,16 +1,13 @@
 #section {
-    display: flex;
-    column-gap: 20px;
-    row-gap: 24px;
+    column-gap: 30px;
     justify-content: center;
-    padding-bottom: 60px;
-    grid-column: 2;
-    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
 #card {
-    width: 211px;
-    height: 119px;
+    width: 33px;
+    height: 21px;
     background-color: white;
     border-radius: 5px;
     display: flex;
@@ -19,8 +16,8 @@
 }
 
 #card img {
-    width: 211px;
-    height: 119px;
+    width: 33px;
+    height: 21px;
     object-fit: cover;
     border-radius: 5px;
 }
