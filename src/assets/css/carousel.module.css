@@ -46,9 +46,15 @@
     margin: 0px 10px;
 }
 
+#content button svg path{
+    stroke: rgba(255, 255, 255, .5);
+    transition: .4s stroke ease-in-out;
+}
+
 #content button:hover svg path {
     stroke: aliceblue;
 }
+
 
 #contentContent {
     width: 100%;
